@@ -8,6 +8,8 @@ import About from './pages/about/AboutPage'
 import WhatWeDo from './pages/whatWeDo/WhatWeDoPage'
 import Media from './pages/media/MediaPage'
 import Contact from './pages/contact/ContactPage'
+import Donate from './pages/donate/DonatePage'
+import Error from './pages/error/Index'
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -21,6 +23,9 @@ function App() {
         <Route path="/whatwedo" element={<WhatWeDo />} />
         <Route path="/media" element={<Media />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/donate" element={<Donate />} />
+        <Route path="*" element={<Error/>} />
+
       </Routes>
     </>
   );

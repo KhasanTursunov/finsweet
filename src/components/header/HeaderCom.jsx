@@ -30,7 +30,9 @@ const HeaderCom = () => {
               <NavLink className="navbar_links" to={"/contact"}>
                 Contact
               </NavLink>
-              <button className="header_button">Donate</button>
+              <NavLink className="navbar_links" to={"/donate"} >
+                <button className="header_button">Donate</button>
+              </NavLink>
             </div>
           </div>
          
