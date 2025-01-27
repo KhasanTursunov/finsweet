@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { NavLink } from 'react-router-dom'
 import Logo from '../../assets/svg/Logo.svg'
 
@@ -42,4 +42,4 @@ const HeaderCom = () => {
   );
 }
 
-export default HeaderCom
+export default memo(HeaderCom)

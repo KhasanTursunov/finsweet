@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {memo} from 'react'
 import wh1 from '../../assets/svg/wh1.svg'
 import wh2 from '../../assets/svg/wh2.svg'
 import wh3 from '../../assets/svg/wh3.svg'
@@ -98,4 +98,4 @@ const whatHeroCom = () => {
   );
 }
 
-export default whatHeroCom
+export default memo(whatHeroCom)

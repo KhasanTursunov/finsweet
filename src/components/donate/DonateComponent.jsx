@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {memo} from 'react'
 import donationImg from "../../assets/img/donation.png";
 
 const DonateComponent = () => {
@@ -33,4 +33,4 @@ const DonateComponent = () => {
   );
 }
 
-export default DonateComponent
+export default memo(DonateComponent)

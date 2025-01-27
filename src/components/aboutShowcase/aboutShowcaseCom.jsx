@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import AboutShowcaseImg from '../../assets/img/aboutShowcase.png'
 
 const aboutShowcaseCom = () => {
@@ -69,4 +69,4 @@ const aboutShowcaseCom = () => {
   );
 }
 
-export default aboutShowcaseCom
+export default memo(aboutShowcaseCom)

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const ContactShowCom = () => {
@@ -59,4 +59,4 @@ const ContactShowCom = () => {
   );
 }
 
-export default ContactShowCom
+export default memo(ContactShowCom)

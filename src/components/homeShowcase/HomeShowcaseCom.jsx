@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, memo } from "react";
 import { FaRegPlayCircle } from "react-icons/fa";
 import Line from "../../assets/img/Line.png";
 import Instead2 from "../../assets/svg/instead2.svg";
@@ -66,4 +66,4 @@ const HomeShowcaseCom = () => {
   );
 };
 
-export default HomeShowcaseCom;
+export default memo(HomeShowcaseCom);

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {memo} from 'react'
 import m7 from '../../assets/img/m7.png'
 import m4 from '../../assets/img/m4.png'
 import m5 from '../../assets/img/m5.png'
@@ -55,4 +55,4 @@ const MediaHeroCom = () => {
   );
 }
 
-export default MediaHeroCom
+export default memo(MediaHeroCom)

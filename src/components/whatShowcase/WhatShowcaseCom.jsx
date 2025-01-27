@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {memo} from 'react'
 import WhatShowImg from '../../assets/img/whatShow.png'
 const WhatShowcaseCom = () => {
   return (
@@ -27,4 +27,4 @@ const WhatShowcaseCom = () => {
   );
 }
 
-export default WhatShowcaseCom
+export default memo(WhatShowcaseCom)

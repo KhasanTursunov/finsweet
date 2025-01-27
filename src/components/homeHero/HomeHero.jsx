@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import HomeHeroBg from '../../assets/img/homeHero.png'
 import hh1 from '../../assets/svg/hh1.svg'
 import hh2 from '../../assets/svg/hh2.svg'
@@ -53,4 +53,4 @@ const HomeHero = () => {
   );
 }
 
-export default HomeHero
+export default memo(HomeHero)

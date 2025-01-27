@@ -1,4 +1,4 @@
-import React from "react";
+import React, {memo} from "react";
 
 const ContactHeroCom = () => {
   return (
@@ -70,4 +70,4 @@ const ContactHeroCom = () => {
   );
 };
 
-export default ContactHeroCom;
+export default memo(ContactHeroCom);
