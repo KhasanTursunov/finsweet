@@ -1,5 +1,5 @@
 import React from 'react'
-import HowWeImage from '../../assets/img/HowWeImg.png'
+import HowWeImage from '../../assets/img/howWeImg.png'
 const HowWeComponent = () => {
   return (
     <section className="howWeSection">
